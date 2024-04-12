@@ -1,0 +1,22 @@
+include *.rst
+include LICENSE
+include NOTICE
+include requirements.txt
+include tox.ini
+include src/pylintrc
+
+# ignore CI configs
+exclude *.yml
+# ignore PyPI Parker config
+exclude park.cfg
+
+recursive-include doc *
+recursive-exclude doc .DS_Store *.pyc
+prune doc/build
+prune doc/lib/generated
+
+recursive-include test *
+recursive-exclude test .DS_Store *.pyc
+
+recursive-include examples *
+recursive-exclude examples .DS_Store *.pyc

@@ -1,0 +1,29 @@
+{
+    "project_name": "",
+    "module_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_description": "{{cookiecutter.project_name}}",
+    "initial_version": "0.0.1",
+    "github_name": "{{ cookiecutter.module_name.replace('_', '-') }}",
+    "github_user": ["aws", "awslabs"],
+    "pypi_name": "{{ cookiecutter.github_name}}",
+    "support_legacy_python": ["no", "yes"],
+    "default_python": "3.7",
+    "supported_modern_python_versions": "3.4 3.5 3.6 3.7 3.8",
+    "author": "Amazon Web Services",
+    "author_email": "aws-cryptools@amazon.com",
+    "pypi_keywords": "{{cookiecutter.pypi_name}} {{cookiecutter.module_name}} aws",
+    "development_status": [
+        "1 - Planning",
+        "2 - Pre-Alpha",
+        "3 - Alpha",
+        "4 - Beta",
+        "5 - Production/Stable",
+        "6 - Mature",
+        "7 - Inactive"
+    ],
+    "license": ["Apache 2.0"],
+    "derived": {
+        "github_url": "https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.github_name}}",
+        "copyright_notice": "# Copyright Amazon.com Inc. or its affiliates. All Rights Reserved.\n# SPDX-License-Identifier: Apache-2.0"
+    }
+}
