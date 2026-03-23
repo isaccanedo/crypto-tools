@@ -1,7 +1,7 @@
 [//]: # "Copyright Amazon.com Inc. or its affiliates. All Rights Reserved."
 [//]: # "SPDX-License-Identifier: CC-BY-SA-4.0"
 
-# AWS Crypto Tools
+## AWS Crypto Tools
 
 We build open source cryptographic libraries that are easy to use, and hard to misuse.
 Cryptography is hard to do safely and correctly.
